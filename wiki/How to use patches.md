@@ -1,6 +1,6 @@
-# How to use patch
+So, you have patch for OpenVibe to process data from your device. Proceed with next steps to apply patch.
 
-## So, you have patch for OpenVibe to process data from your device. Proceed with next steps to apply patch.
+## How to use patch
 
 1. Connect your EEG device to the computer.
 1. OpenVibe Acqusition server is a center node, that collects data from devices of different types. Launch OpenVibe Acqusition server and setup it for your EEG device. There could be several ways, that are described below.
