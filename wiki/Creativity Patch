@@ -1,34 +1,18 @@
 Creativity Patch
 
-
 The most puzzling function of the human being is creativity - nobody actually knows what's happening while we are creating something new. That’s why it’s easy to understand that brain mechanisms underlying this process are extremely vague - there is no one clear hypothesis about it. However, after analyzing relevant literature, we’ve chosen one algorithm possibly suitable for the person’s creativity level estimation. We assess creativity in terms of connectivity level (in one of the frequency ranges) between distant cortex regions (e.g. frontal and occipital lobes). Using special math function we estimate synchronicity of waves in such regions. If these waves are synchronised, we propose that these regions are working together providing creativity function for the brain.
+
+
 How to use this patch?
-
-Connect your EEG device to the computer.
-OpenVibe Acqusition server is a center node, that collects data from devices of different types. Launch OpenVibe Acqusition server and setup it for your EEG device. There could be several ways, that are described below.
-Launch OpenVibe Designer.
-Load “Creativity.xml” patch.
-There is an inital node "Aquisition client", that will connect to OpenVibe Acqusition server for device data.
-Wear your EEG device
-Push “Start” button on the top bar of OpenVibe
-You can monitor an emotional state in different ways using boxes from “Visualisation” folder from the right column.
-How to set up OpenVibe Acqusition server
-
-Launch OpenVibe Acqusition server
-Choose driver for your device to obtain data from it.
-Or choose driver for LSLSmartbci (separate program) as another way of recieving data.
-Press "Connect" for initialising connection to your device
-Press "Run" to start recieving data
-How to use LSLSmartbci for recieving data
-
-Download folder with LSLSmartbci and install it. Download link: https://drive.google.com/drive/folders/0BwlufvWw_B4iLUpoVzlmMlZpUEk?usp=sharing
-Installation for LSLSmartbci is simple. Install C++ RunTime files by launching vcredist_x64.exe 64 bit Windows or vcredist_x86.exe for 32 bit Windows from the downloaded floder. 
-As C++ RunTime files are installed you could run LSLSmartbci.
-Launch LSLSmartBCI. There are folders with two versions of LSLSmartbci in the downloaded folder: "LSL(1.0.7918)x64" for 64 bit Windows and "x86" for 32 bit Windows. 
-Choose folder for your Windows and launch LSLSmartBCI.exe inside it.
-
+This patch calculates two substreams (inverse alpha and coherence) that merges to a feature vector. 
+You could use this vector as a control parameter; patch sends its to VRPN server (it could be OSC-server).
+For this patch you need  the EEG device with electrodes covering the entire head.
 
 What’s happening there?
+
+This patch uses some EEG correlates of divergent type of solutions to the problem solving that are part of creative thinking.
+Actually, this patch calculates two types of EEG-metrics: magnitude square coherence beetween distant cortex zones 
+(you could use either frontopolar-occipital or parietal-temporal) and alpha band power in left hemisphere.
 
 This patch gets data from EEG signal and compares connectivity between two selected channels (using built-in math function - for more information see box documentation). By default it’s frontal and occipital zones but you can choose other variants.  
 For more ideas which cortex areas connectivity you can use see this review 
