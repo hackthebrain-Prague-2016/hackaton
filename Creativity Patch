@@ -7,7 +7,7 @@ How to use this patch?
 Connect your EEG device to the computer.
 OpenVibe Acqusition server is a center node, that collects data from devices of different types. Launch OpenVibe Acqusition server and setup it for your EEG device. There could be several ways, that are described below.
 Launch OpenVibe Designer.
-Load “Emotion detection.xml” patch.
+Load “Creativity.xml” patch.
 There is an inital node "Aquisition client", that will connect to OpenVibe Acqusition server for device data.
 Wear your EEG device
 Push “Start” button on the top bar of OpenVibe
