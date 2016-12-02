@@ -22,8 +22,14 @@ Press "Run" to start recieving data
 How to use LSLSmartbci for recieving data
 
 Download folder with LSLSmartbci and install it. Download link: https://drive.google.com/drive/folders/0BwlufvWw_B4iLUpoVzlmMlZpUEk?usp=sharing
-Installation for LSLSmartbci is simple. Install C++ RunTime files by launching vcredist_x64.exe 64 bit Windows or vcredist_x86.exe for 32 bit Windows from the downloaded floder. As C++ RunTime files are installed you could run LSLSmartbci.
-Launch LSLSmartBCI. There are folders with two versions of LSLSmartbci in the downloaded folder: "LSL(1.0.7918)x64" for 64 bit Windows and "x86" for 32 bit Windows. Choose folder for your Windows and launch LSLSmartBCI.exe inside it.
+Installation for LSLSmartbci is simple. Install C++ RunTime files by launching vcredist_x64.exe 64 bit Windows or vcredist_x86.exe for 32 bit Windows from the downloaded floder. 
+As C++ RunTime files are installed you could run LSLSmartbci.
+Launch LSLSmartBCI. There are folders with two versions of LSLSmartbci in the downloaded folder: "LSL(1.0.7918)x64" for 64 bit Windows and "x86" for 32 bit Windows. 
+Choose folder for your Windows and launch LSLSmartBCI.exe inside it.
+
+
 What’s happening there?
+
 This patch gets data from EEG signal and compares connectivity between two selected channels (using built-in math function - for more information see box documentation). By default it’s frontal and occipital zones but you can choose other variants.  
-For more ideas which cortex areas connectivity you can use see this review https://www.ncbi.nlm.nih.gov/pubmed/20488210 (full text in the wiki-folder)
+For more ideas which cortex areas connectivity you can use see this review 
+https://www.ncbi.nlm.nih.gov/pubmed/20488210 (full text in the wiki-folder)
