@@ -8,6 +8,8 @@ This patch calculates two substreams (inverse alpha and coherence) that merges t
 You could use this vector as a control parameter; patch sends its to VRPN server (it could be OSC-server).
 For this patch you need  the EEG device with electrodes covering the entire head.
 
+Read article, how to use patches in OpenVibe: https://github.com/hackthebrain-Prague-2016/hackaton/blob/master/wiki/How%20to%20use%20patches.md
+
 What’s happening there?
 
 This patch uses some EEG correlates of divergent type of solutions to the problem solving that are part of creative thinking.
