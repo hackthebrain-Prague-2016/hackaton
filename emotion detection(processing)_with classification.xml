@@ -2646,11 +2646,11 @@ instead signal averaging</Text>
 		</Comment>
 		<Comment>
 			<Identifier>(0x000023d0, 0x0000705c)</Identifier>
-			<Text>python script instead of &quot;Classifier processor&quot; box</Text>
+			<Text>you could use python script instead of &quot;Classifier processor&quot; box</Text>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
-					<Value>352.000000</Value>
+					<Value>368.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
@@ -2675,7 +2675,7 @@ instead signal averaging</Text>
 		</Comment>
 		<Comment>
 			<Identifier>(0x00004be8, 0x00006283)</Identifier>
-			<Text>python script to normalize value [-1,1]</Text>
+			<Text>it's better to use python script to normalize value [-1,1]</Text>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x473d9a43, 0x97fc0a97)</Identifier>
@@ -2683,7 +2683,7 @@ instead signal averaging</Text>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x7234b86b, 0x2b8651a5)</Identifier>
-					<Value>448.000000</Value>
+					<Value>464.000000</Value>
 				</Attribute>
 			</Attributes>
 		</Comment>
