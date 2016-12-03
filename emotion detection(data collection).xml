@@ -111,6 +111,18 @@
 					<Value>100</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x0031ad26)</Value>
+=======
+					<Value>(0x00000000, 0x004230ea)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x004230ea)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
 					<Value>false</Value>
 				</Attribute>
@@ -169,7 +181,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>-96.000000</Value>
+					<Value>-112.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -177,7 +189,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>302.000000</Value>
+					<Value>304.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -186,6 +198,22 @@
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
 					<Value>121</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x000357a2)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc67a01dc, 0x28ce06c1)</Identifier>
+					<Value></Value>
+=======
+					<Value>(0x00000000, 0x009d8c7c)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x009d8c7c)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -260,7 +288,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x005f17c7)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x003dee7f)</Value>
+=======
+					<Value>(0x00000000, 0x0032b993)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x0032b993)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -350,7 +386,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x000e5a32)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00126a55)</Value>
+=======
+					<Value>(0x00000000, 0x000fcb49)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000fcb49)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -440,7 +484,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x000f01ee)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x001040b4)</Value>
+=======
+					<Value>(0x00000000, 0x000e38a6)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000e38a6)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -457,6 +509,152 @@
 				<Attribute>
 					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
 					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000019a9, 0x00001048)</Identifier>
+			<Name>Clock stimulator</Name>
+			<AlgorithmClassIdentifier>(0x4f756d3f, 0x29ff0b96)</AlgorithmClassIdentifier>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Generated stimulations</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Interstimulation interval (in sec)</Name>
+					<DefaultValue>1.0</DefaultValue>
+					<Value>3.0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_GDF_100_Watt</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>-16.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
+					<Value>23</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>-608.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x27b3ee3c, 0xc50527e6)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
+					<Value>114</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x007980d9)</Value>
+=======
+					<Value>(0x00000000, 0x0064fdaa)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x0064fdaa)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
+					<Value>false</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000019a9, 0x00001049)</Identifier>
+			<Name>Clock stimulator</Name>
+			<AlgorithmClassIdentifier>(0x4f756d3f, 0x29ff0b96)</AlgorithmClassIdentifier>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Generated stimulations</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Interstimulation interval (in sec)</Name>
+					<DefaultValue>1.0</DefaultValue>
+					<Value>5.0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation</Name>
+					<DefaultValue>OVTK_StimulationId_Label_00</DefaultValue>
+					<Value>OVTK_StimulationId_VisualStimulationStop</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>-16.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
+					<Value>23</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>-464.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x27b3ee3c, 0xc50527e6)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
+					<Value>114</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x0027632e)</Value>
+=======
+					<Value>(0x00000000, 0x001f9692)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x001f9692)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
+					<Value>false</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>2</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -507,6 +705,18 @@
 					<Value>129</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00116ec0)</Value>
+=======
+					<Value>(0x00000000, 0x000e27e4)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000e27e4)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
 					<Value>false</Value>
 				</Attribute>
@@ -552,7 +762,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>464.000000</Value>
+					<Value>480.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -577,6 +787,18 @@
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
 					<Value>141</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x000eae1c)</Value>
+=======
+					<Value>(0x00000000, 0x000b45a5)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000b45a5)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -607,23 +829,23 @@
 			<Inputs>
 				<Input>
 					<TypeIdentifier>(0x1f261c0a, 0x593bf6bd)</TypeIdentifier>
-					<Name>alpha</Name>
+					<Name>a</Name>
 				</Input>
 				<Input>
 					<TypeIdentifier>(0x1f261c0a, 0x593bf6bd)</TypeIdentifier>
-					<Name>beta</Name>
+					<Name>b</Name>
 				</Input>
 				<Input>
 					<TypeIdentifier>(0x1f261c0a, 0x593bf6bd)</TypeIdentifier>
-					<Name>gamma</Name>
+					<Name>g</Name>
 				</Input>
 				<Input>
 					<TypeIdentifier>(0x1f261c0a, 0x593bf6bd)</TypeIdentifier>
-					<Name>delta</Name>
+					<Name>d</Name>
 				</Input>
 				<Input>
 					<TypeIdentifier>(0x1f261c0a, 0x593bf6bd)</TypeIdentifier>
-					<Name>theta</Name>
+					<Name>t</Name>
 				</Input>
 			</Inputs>
 			<Outputs>
@@ -637,14 +859,22 @@
 					<TypeIdentifier>(0x79a9edeb, 0x245d83fc)</TypeIdentifier>
 					<Name>Equation</Name>
 					<DefaultValue>x</DefaultValue>
-					<Value>alpha/(alpha+beta+gamma+delta+theta)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>a/(a+b+g+d+t)</Value>
+=======
+					<Value>A/(A+B+C+D+E)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>A/(A+B+C+D+E)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>352.000000</Value>
+					<Value>353.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -669,6 +899,24 @@
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
 					<Value>82</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x000724b1)</Value>
+=======
+=======
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+					<Value>(0x00000000, 0x00065b65)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc67a01dc, 0x28ce06c1)</Identifier>
+					<Value></Value>
+<<<<<<< HEAD
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -732,7 +980,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>288.000000</Value>
+					<Value>289.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
@@ -749,6 +997,18 @@
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
 					<Value>152</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x001376d7)</Value>
+=======
+					<Value>(0x00000000, 0x000f98f8)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000f98f8)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -769,6 +1029,107 @@
 				<Attribute>
 					<Identifier>(0xfba64161, 0x65304e21)</Identifier>
 					<Value></Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x00003ffc, 0x00001327)</Identifier>
+			<Name>Display cue image</Name>
+			<AlgorithmClassIdentifier>(0x005789a4, 0x3ab78a36)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations</Name>
+				</Output>
+			</Outputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Display images in full screen</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>true</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Clear screen Stimulation</Name>
+					<DefaultValue>OVTK_StimulationId_VisualStimulationStop</DefaultValue>
+					<Value>OVTK_StimulationId_VisualStimulationStop</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Cue Image 1</Name>
+					<DefaultValue>${Path_Data}/plugins/simple-visualisation/p300-magic-card/01.png</DefaultValue>
+					<Value>${Player_ScenarioDirectory}/IAPS_selections/SPECS_migraine_study/Negative_HighA/6260.jpg</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2c132d6e, 0x44ab0d97)</TypeIdentifier>
+					<Name>Stimulation 1</Name>
+					<DefaultValue>OVTK_StimulationId_Label_01</DefaultValue>
+					<Value>OVTK_GDF_100_Watt</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>96.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
+					<Value>33</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>-528.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0x295db2ab, 0xb8a60cd8)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x61d11811, 0x71e65362)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
+					<Value>127</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00046414)</Value>
+=======
+					<Value>(0x00000000, 0x0081e48e)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x0081e48e)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
+					<Value>false</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -832,7 +1193,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x000f66a4)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00110a1a)</Value>
+=======
+					<Value>(0x00000000, 0x000e4970)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000e4970)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -912,7 +1281,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x000ecfac)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00115dfe)</Value>
+=======
+					<Value>(0x00000000, 0x000df58f)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000df58f)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -992,7 +1369,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x000ecfac)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x0015d2d7)</Value>
+=======
+					<Value>(0x00000000, 0x0011e428)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x0011e428)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1048,7 +1433,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>782.000000</Value>
+					<Value>784.000000</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
@@ -1071,6 +1456,18 @@
 					<Value>107</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00026cc3)</Value>
+=======
+					<Value>(0x00000000, 0x0001711a)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x0001711a)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
 					<Value>true</Value>
 				</Attribute>
@@ -1081,6 +1478,77 @@
 				<Attribute>
 					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
 					<Value>1</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
+			<Identifier>(0x000043d2, 0x000017b0)</Identifier>
+			<Name>Stimulation multiplexer</Name>
+			<AlgorithmClassIdentifier>(0x07db4efa, 0x472b0938)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input stimulations 1</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Input stimulations 2</Name>
+				</Input>
+			</Inputs>
+			<Outputs>
+				<Output>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Multiplexed stimulations</Name>
+				</Output>
+			</Outputs>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>48.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x1fa963f5, 0x1a638cd4)</Identifier>
+					<Value>33</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>-528.000000</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xd5da9c1d, 0x1cc7dbf9)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
+					<Value>141</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x0059103e)</Value>
+=======
+					<Value>(0x00000000, 0x0051c9fa)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x0051c9fa)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
+					<Value>false</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xfba64161, 0x65304e21)</Identifier>
+					<Value></Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -1107,7 +1575,11 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue>record-[$core{date}-$core{time}].gdf</DefaultValue>
-					<Value>record-[$core{date}-$core{time}].gdf</Value>
+<<<<<<< HEAD
+					<Value>C:/Programmes/openvibe/share/openvibe/scenarios/test/test</Value>
+=======
+					<Value>${Player_ScenarioDirectory}/record-[$core{date}-$core{time}].gdf</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -1131,6 +1603,18 @@
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
 					<Value>103</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00129cc3)</Value>
+=======
+					<Value>(0x00000000, 0x00113c69)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x00113c69)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1186,6 +1670,18 @@
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
 					<Value>120</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00138793)</Value>
+=======
+					<Value>(0x00000000, 0x00116ec0)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x00116ec0)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1252,6 +1748,18 @@
 					<Value>129</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00117f87)</Value>
+=======
+					<Value>(0x00000000, 0x000e0655)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000e0655)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
 					<Value>false</Value>
 				</Attribute>
@@ -1314,6 +1822,18 @@
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
 					<Value>129</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00101f35)</Value>
+=======
+					<Value>(0x00000000, 0x000e4972)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000e4972)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1380,6 +1900,18 @@
 					<Value>129</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x000f8834)</Value>
+=======
+					<Value>(0x00000000, 0x000da1ab)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000da1ab)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
 					<Value>false</Value>
 				</Attribute>
@@ -1444,6 +1976,18 @@
 					<Value>129</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x000fba84)</Value>
+=======
+					<Value>(0x00000000, 0x000da1aa)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000da1aa)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
 					<Value>false</Value>
 				</Attribute>
@@ -1500,7 +2044,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x000f8835)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x001e471a)</Value>
+=======
+					<Value>(0x00000000, 0x001d6cf2)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x001d6cf2)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1576,7 +2128,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x00114d36)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x0014727a)</Value>
+=======
+					<Value>(0x00000000, 0x001248d4)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x001248d4)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1660,7 +2220,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x00114d36)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x0012274f)</Value>
+=======
+					<Value>(0x00000000, 0x000fba86)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000fba86)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1747,7 +2315,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x00029f17)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00025bfc)</Value>
+=======
+					<Value>(0x00000000, 0x0003686a)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x0003686a)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1822,6 +2398,18 @@
 					<Value>82</Value>
 				</Attribute>
 				<Attribute>
+					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x000fcb55)</Value>
+=======
+					<Value>(0x00000000, 0x000b6740)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000b6740)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+				</Attribute>
+				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
 					<Value>false</Value>
 				</Attribute>
@@ -1891,7 +2479,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x000f66a9)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x00110a14)</Value>
+=======
+					<Value>(0x00000000, 0x000f12c3)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000f12c3)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -1959,7 +2555,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x000e0652)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x0011f4ea)</Value>
+=======
+					<Value>(0x00000000, 0x000e27dc)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x000e27dc)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -2062,7 +2666,15 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc46b3d00, 0x3e0454e1)</Identifier>
-					<Value>(0x00000000, 0x014e1a5e)</Value>
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<Value>(0x00000000, 0x0065e883)</Value>
+=======
+					<Value>(0x00000000, 0x005db770)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
+=======
+					<Value>(0x00000000, 0x005db770)</Value>
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -2084,35 +2696,6 @@
 		</Box>
 	</Boxes>
 	<Links>
-		<Link>
-			<Identifier>(0x0000008c, 0x00005927)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x00000a85, 0x0000736b)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00007fc0, 0x000075e8)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
-					<Value>-78</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
-					<Value>287</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>-39</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
-					<Value>288</Value>
-				</Attribute>
-			</Attributes>
-		</Link>
 		<Link>
 			<Identifier>(0x00000243, 0x00005b5c)</Identifier>
 			<Source>
@@ -2172,35 +2755,6 @@
 			</Attributes>
 		</Link>
 		<Link>
-			<Identifier>(0x0000096e, 0x00005a27)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x00000a85, 0x0000736b)</BoxIdentifier>
-				<BoxOutputIndex>1</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00000901, 0x00005f6b)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
-					<Value>-78</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
-					<Value>287</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>-53</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
-					<Value>417</Value>
-				</Attribute>
-			</Attributes>
-		</Link>
-		<Link>
 			<Identifier>(0x000009f9, 0x000035af)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x0000137a, 0x00002284)</BoxIdentifier>
@@ -2226,6 +2780,35 @@
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
 					<Value>176</Value>
+				</Attribute>
+			</Attributes>
+		</Link>
+		<Link>
+			<Identifier>(0x00000ffb, 0x00006696)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00000a85, 0x0000736b)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00007fc0, 0x000075e8)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
+					<Value>-94</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
+					<Value>289</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
+					<Value>-39</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
+					<Value>288</Value>
 				</Attribute>
 			</Attributes>
 		</Link>
@@ -2300,7 +2883,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
-					<Value>492</Value>
+					<Value>508</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
@@ -2366,7 +2949,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>331</Value>
+					<Value>332</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -2395,7 +2978,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>331</Value>
+					<Value>332</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -2420,7 +3003,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
-					<Value>288</Value>
+					<Value>289</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
@@ -2445,7 +3028,7 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
-					<Value>375</Value>
+					<Value>376</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
@@ -2453,7 +3036,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>438</Value>
+					<Value>454</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -2486,7 +3069,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
-					<Value>280</Value>
+					<Value>281</Value>
 				</Attribute>
 			</Attributes>
 		</Link>
@@ -2520,6 +3103,35 @@
 			</Attributes>
 		</Link>
 		<Link>
+			<Identifier>(0x00003a60, 0x00001822)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000019a9, 0x00001049)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000043d2, 0x000017b0)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
+			</Target>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
+					<Value>-464</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
+					<Value>27</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
+					<Value>-521</Value>
+				</Attribute>
+			</Attributes>
+		</Link>
+		<Link>
 			<Identifier>(0x00003c88, 0x0000664e)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x000060d1, 0x000074f3)</BoxIdentifier>
@@ -2540,7 +3152,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>331</Value>
+					<Value>332</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -2569,7 +3181,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>331</Value>
+					<Value>332</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -2627,7 +3239,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
-					<Value>331</Value>
+					<Value>332</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
@@ -2868,6 +3480,67 @@
 			</Attributes>
 		</Link>
 		<Link>
+			<Identifier>(0x00005f4a, 0x000001ee)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000019a9, 0x00001048)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000043d2, 0x000017b0)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
+					<Value>-608</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
+					<Value>27</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
+					<Value>-536</Value>
+				</Attribute>
+			</Attributes>
+		</Link>
+		<Link>
+<<<<<<< HEAD
+			<Identifier>(0x00006e58, 0x0000040d)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00000a85, 0x0000736b)</BoxIdentifier>
+				<BoxOutputIndex>1</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00000901, 0x00005f6b)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
+					<Value>-94</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
+					<Value>289</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
+					<Value>-53</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
+					<Value>417</Value>
+				</Attribute>
+			</Attributes>
+		</Link>
+		<Link>
+=======
+>>>>>>> e05f90f14b87dfbf4eb33654e063248750702a82
 			<Identifier>(0x000070d1, 0x0000103a)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00007137, 0x000000eb)</BoxIdentifier>
@@ -2897,6 +3570,35 @@
 			</Attributes>
 		</Link>
 		<Link>
+			<Identifier>(0x0000728a, 0x000038d6)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000043d2, 0x000017b0)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00003ffc, 0x00001327)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1b32c44c, 0x1905e0e9)</Identifier>
+					<Value>71</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x358ae8b5, 0x0f8bacd1)</Identifier>
+					<Value>-528</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x3f0a3b27, 0x570913d2)</Identifier>
+					<Value>75</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
+					<Value>-528</Value>
+				</Attribute>
+			</Attributes>
+		</Link>
+		<Link>
 			<Identifier>(0x00007778, 0x0000121d)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x0000646a, 0x00005e95)</BoxIdentifier>
@@ -2921,7 +3623,7 @@
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x6267b5c5, 0x676e3e42)</Identifier>
-					<Value>295</Value>
+					<Value>296</Value>
 				</Attribute>
 			</Attributes>
 		</Link>
@@ -3113,6 +3815,13 @@ we offer to collect GDF-file with each data class independently</Text>
 			<Type>3</Type>
 			<ParentIdentifier>(0xffffffff, 0xffffffff)</ParentIdentifier>
 			<BoxIdentifier>(0x00000901, 0x00005f6b)</BoxIdentifier>
+			<NumChildren>0</NumChildren>
+		</VisualisationWidget>
+		<VisualisationWidget>
+			<Identifier>(0x000038be, 0x00001d11)</Identifier>
+			<Type>3</Type>
+			<ParentIdentifier>(0xffffffff, 0xffffffff)</ParentIdentifier>
+			<BoxIdentifier>(0x00003ffc, 0x00001327)</BoxIdentifier>
 			<NumChildren>0</NumChildren>
 		</VisualisationWidget>
 		<VisualisationWidget>
