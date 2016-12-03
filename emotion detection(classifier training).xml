@@ -86,7 +86,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value></Value>
+					<Value>${Player_ScenarioDirectory}/sad.gdf</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -382,7 +382,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value></Value>
+					<Value>${Player_ScenarioDirectory}/fear.gdf</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -458,7 +458,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value></Value>
+					<Value>${Player_ScenarioDirectory}/happy.gdf</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -534,7 +534,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename</Name>
 					<DefaultValue></DefaultValue>
-					<Value></Value>
+					<Value>${Player_ScenarioDirectory}/neutral.gdf</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
@@ -572,6 +572,10 @@
 				<Attribute>
 					<Identifier>(0xad100179, 0xa3c984ab)</Identifier>
 					<Value>82</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xc67a01dc, 0x28ce06c1)</Identifier>
+					<Value></Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xc73e83ec, 0xf855c5bc)</Identifier>
@@ -631,7 +635,7 @@
 					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
 					<Name>Filename to save configuration to</Name>
 					<DefaultValue>${Path_UserData}/my-classifier.xml</DefaultValue>
-					<Value>${Path_UserData}/my-classifier.xml</Value>
+					<Value>${Player_ScenarioDirectory}/my-classifier.xml</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
